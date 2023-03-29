@@ -5,10 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Methods for Adding CSS</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+      P {
+        color: white;
+        background-color: green;
+        font-size: 18px;
+    }</style>
+
   </head>
   <body>
+    <!-- <div> style via external method, link tags inside <head> tags 
+      and styles.css was created and linked properly-->
     <div>Style me via the external method!</div>
+
+    <!-- <p> style via internal method, Style tags inside <head> tags -->
     <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+
+    <!-- <button> style via Inline method, Style attribute inside <button> tags -->
+    <button style="background-color: orange;
+    font-size: 18px;">Inline Method</button>
   </body>
 </html>
