@@ -1,0 +1,36 @@
+/* All odd numbered elements: a light red/pink background, 
+    and a list of fonts containing Verdana and DejaVu Sans with sans-serif as a fallback
+The second element: blue text and a font size of 36px
+The third element: in addition to the styles for all odd numbered elements, 
+    add a font size of 24px
+The fourth element: a light green background, a font size of 24px, and bold */
+
+/* All odd numbers + Third element to 
+    eliminate repetition*/
+.odd-numbers,
+.odd-numbers.cooler{
+    color: rgb(255, 255, 255);
+    background-color: rgb(252, 141, 141);
+    text-align: center;
+    font-weight: bold;
+    font-family: "DejaVu Sans", Verdana, sans-serif;
+}
+
+/* The third element */
+.odd-numbers.cooler{
+font-size: 24px;
+}
+
+/* Second Element with ID selector*/
+#one {
+    color: rgb(10, 82, 238);
+    font-size: 36px;
+}
+
+/* Fourth Element with ID selector*/
+#another {
+    background-color: rgb(141, 252, 147);
+    font-size: 24px;
+    font-weight: bold;
+}
+
