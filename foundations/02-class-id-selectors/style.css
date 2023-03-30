@@ -9,7 +9,7 @@ The fourth element: a light green background, a font size of 24px, and bold */
     eliminate repetition*/
 .odd-numbers,
 .odd-numbers.cooler{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     background-color: rgb(252, 141, 141);
     font-family: "DejaVu Sans", Verdana, sans-serif;
 }
