@@ -8,7 +8,9 @@ body{
   font-weight: 800;
 }
 
-.small-para {
+/* Added class selector .para that was missing to 
+target the "para small-para" class */
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
@@ -17,7 +19,8 @@ body{
   font-size: 22px;
 }
 
-.confirm {
+/* Added ID selector to target the confirm button */
+#confirm-button.confirm {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,7 +32,10 @@ body{
   font-size: 20px;
 }
 
-.child {
+/* Added class selector .text that was missing to 
+target the "text child" class */
+
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
