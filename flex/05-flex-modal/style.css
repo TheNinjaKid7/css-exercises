@@ -20,6 +20,10 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* there is equal space on either side of the icon */
+  display: flex;
+  gap: 16px;
+  padding: 16px;
 }
 
 .icon {
@@ -33,6 +37,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* So the icon doesn't shrink */
+  flex-shrink: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 9px;
+}
+
+.text {
+  margin-bottom: 17px;
 }
 
 .close-button {
